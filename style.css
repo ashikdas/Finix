@@ -191,7 +191,7 @@ ul.our-primary-menu li ul li a{}
 }
 .about-img-text {
 	position: absolute;
-	right: 100px;
+	right: 60px;
 	bottom: 0;
 	background: url(img/shape.png);
 	height: 200px;
@@ -242,4 +242,96 @@ ul.our-primary-menu li ul li a{}
 	color: #e63b3d;
 	display: inline-block;
 	margin-right: 10px;
+}
+
+/*  Why choose us section  */
+.features-item{
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+}
+.features-item:hover{
+    transform: translateY(-12px);
+}
+.features-item::before {
+    content: "";
+    position: absolute;
+    top: -135px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 90%;
+    height: 70%;
+    background: #fdebeb;
+    border-radius: 50%;
+}
+.features-item .ft-icon {
+    position: relative;
+    z-index: 1;
+}
+.features-item .ft-icon i {
+	color: #e73c3e;
+	font-size: 32px;
+	background: #fff;
+	height: 90px;
+	width: 90px;
+	line-height: 90px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.features-item:hover .ft-icon i{
+    color: #fff;
+    background: #e73c3e;
+}
+.mtop4{
+    margin-top: -30px;
+}
+.ft-icon{}
+.ft-icon h3{}
+.ft-icon p{}
+
+.finix-text{
+    position: relative;
+}
+.play-animation-btn {
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	background: #fff;
+	font-size: 60px;
+	text-align: center;
+	line-height: 90px;
+	color: #e73a3e;
+	border-radius: 50%;
+	position: absolute;
+	right: 41%;
+	bottom: 51px;
+}
+.play-animation-btn::before{
+    content: "";
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e73a3e;
+    border-radius: 50%;
+    animation: playbtn 1.6s ease-out infinite;
+}
+@keyframes playbtn {
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: .7;
+    }
+    0%{
+        transform: scale(2);
+        opacity: 0;
+    }
 }
