@@ -411,3 +411,63 @@ ul.our-primary-menu li ul li a{}
     display: block;
     margin-bottom: 10px;
 }
+
+/* CSS for Call To Action */
+.call-to-action-bg{
+    background-color: #e73a3e;
+}
+.call-to-action-bg h2 {
+    font-size: 40px;
+    font-weight: 400;
+    border-right: 1px solid #ddd;
+}
+.call-to-action-bg {
+    background-color: #e73a3e;
+    padding: 60px;
+        padding-bottom: 60px;
+    color: #fff;
+    padding-bottom: 40px;
+    border-radius: 6px;
+}
+.call-to-action-phone{}
+.call-to-action-phone span {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	color: #e73a3e;
+	font-size: 32px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 60px;
+	margin-right: 30px;
+}
+.call-to-action-phone a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 43px;
+}
+.call-to-action-phone {
+    margin-top: 18px;
+}
+
+/*  Our Comapny Values Section  */
+.company-values-text{}
+.values-item {
+    margin-bottom: 10px;
+}
+.values-item .value-icon {
+    font-size: 39px;
+    color: #e73a3e;
+    margin-right: 30px;
+}
+.value-texts{}
+.value-texts h3{}
+.value-texts p{
+    color: #606060;
+}
+.our-company-img {
+    text-align: right;
+    margin-top: 35px;
+}
